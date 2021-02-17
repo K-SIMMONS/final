@@ -1,0 +1,127 @@
+body {
+  background-color: darkgray;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color:transparent;
+    color: white;
+    opacity: 0.7;
+    margin: 1px;
+    border-radius: 10px;
+    text-align: right;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    }
+
+    li{
+      display: inline-block;
+      padding: 5px;
+      text-align: right;
+      position: relative;
+      top:38px;
+      font-size: larger;
+    }
+    
+    a{
+        text-decoration: none;
+        color:whitesmoke;
+    }
+    
+    
+    a:link {
+        color:whitesmoke;
+      }
+      
+     
+      a:hover {
+        color: orange;
+      }
+      
+      
+     
+
+      .logo{
+        position: relative;
+        float: left;
+        bottom: 43px;
+    
+      }
+
+      .head{
+height: 100px;
+width: 1180px;
+background-color: darkorange;
+border-radius: 15px;
+      }
+
+      .head-text{
+        font-size: 40px;
+        position: relative;
+        right: 190px;
+        top:15px;
+        color:black;
+
+      }
+
+      .text{
+        font-size: 45px;
+        font-weight: bold;
+        position: relative;
+        left: 25px;
+        bottom: 20px;
+      }
+
+      .head-two{
+        height: 100px;
+        width: 1180px;
+      background-color: darkorange;
+      border-radius: 15px;
+      position: relative;
+      top: 400px;
+      left:736px;
+      }
+
+      .head-text-two{
+        font-size: 40px;
+        position: relative;
+        left: 20px;
+        top:15px;
+        color:black;
+      }
+      
+      .image{
+        height: auto;
+        width: 600px;
+        background-color: transparent;
+        position: relative;
+        top: 400px;
+        left: 75px;
+        border: 5px solid darkorange;
+        border-radius: 10px;
+
+      }
+
+      .text-two{
+        font-size: 50px;
+        font-weight: bold;
+        position: relative;
+        left:10px;
+      }
+
+      .right-image{
+        height: auto;
+        width: 600px;
+        background-color: transparent;
+        position: relative;
+        bottom: 1000px;
+        left: 1245px;
+        border: 5px solid darkorange;
+        border-radius: 10px;
+      }
+
+      
+    
