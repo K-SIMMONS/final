@@ -56,11 +56,11 @@ nav {
     
       }
 
-      .container:hover .image {
+      /* .container:hover .image {
         opacity: 0.6;
-      }
+      } */
       
-      .container:hover .middle {
+      .pictures:hover .middle {
         opacity: 1;
         
       }
@@ -76,6 +76,10 @@ nav {
         transition: .5s ease;
         backface-visibility: hidden;
         
+      }
+
+      .text:hover{
+        z-index: 1;
       }
       
       .text {
