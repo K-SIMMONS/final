@@ -70,26 +70,21 @@ nav {
       }
 
       .kitchen-text{
-        display: none;
-      }
-
-      .kitchen-text:hover{
         z-index: 10;
         position: absolute;
         color: whitesmoke;
-        font-size: 180px;
-        left: 600px;
-        top:200px;
+        font-size: 200px;
+        left: 510px;
+        top: 250px;
         
       }
-
 
       .opacity:hover{
         background-color: black;
         height: 100%;
         width: 100%;
         opacity: .2;
-        z-index: -2;
+        z-index: 2;
         /* position:relative; */
       }
 
