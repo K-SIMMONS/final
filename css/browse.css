@@ -60,8 +60,8 @@ nav {
       }
 
 
-      .box{
-        /* background-color: blue; */
+      .kit-box{
+        
         height:100vh;
         width:100vw;
         background-position: center;
@@ -79,68 +79,89 @@ nav {
         
       }
 
-      .opacity:hover{
+      .kit-opacity{
         background-color: black;
         height: 100%;
         width: 100%;
         opacity: .2;
         z-index: 2;
-        /* position:relative; */
-      }
-
-
-       /* .container:hover .image {
-        opacity: 0.6;
-      } 
-      
-       .pictures:hover .middle {
-        opacity: 1;
         
-      } */
-      
-      /* .pictures:hover{
-        opacity: 0.7;
-      }
-      
-      .pictures{
-        display:inline-block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-        
-      } 
-
-      .text:hover{
-        z-index: 1;
-      }
-      
-      .kit-text {
-        background-color: orange;
-        color:white;
-        font-size: 70px;
-     
-        font-family: Arial, Helvetica, sans-serif;
       }
 
-      .middle {
-        transition: .5s ease;
-        opacity: 0;
+      .liv-box{
+        height:100vh;
+        width:100vw;
+        background-position: center;
+        background-size: 100% 100%;
+        position: relative;
+      }
+
+      .living-text{
+        z-index: 10;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-      } 
+        color: whitesmoke;
+        font-size: 200px;
+        left: 400px;
+        top: 250px;
+      }
+
+      .liv-opacity{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        opacity: .2;
+        z-index: 2;
+      }
+
+      .bed-box{
+        height:100vh;
+        width:100vw;
+        background-position: center;
+        background-size: 100% 100%;
+        position: relative;
+      }
+
+      .bed-text{
+        z-index: 10;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 200px;
+        left: 500px;
+        top: 250px;
+      }
+
+      .bed-opacity{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        opacity: .2;
+        z-index: 2;
+      }
+
+      .bath-box{
+        height:100vh;
+        width:100vw;
+        background-position: center;
+        background-size: 100% 100%;
+        position: relative;
+      }
 
       .bath-text{
-        background-color: orange;
-        color:white;
-        font-size: 70px;
-       
-        font-family: Arial, Helvetica, sans-serif;
-      } */
+        z-index: 10;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 200px;
+        left: 430px;
+        top: 250px;
+      }
+
+      .bath-opacity{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        opacity: .2;
+        z-index: 2;
+      }
 
      
     
