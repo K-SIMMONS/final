@@ -53,7 +53,7 @@ nav {
       .head{
       height: 100px;
       width: 1180px;
-      background-color: lightgray;
+      background-color: transparent;
       border-radius: 15px;
       }
 
@@ -72,12 +72,13 @@ nav {
         position: relative;
         left: 25px;
         bottom: 20px;
+        color: gray;
       }
 
       .head-two{
         height: 100px;
         width: 1180px;
-      background-color: lightgray;
+      background-color: transparent;
       border-radius: 15px;
       position: relative;
       top: 400px;
@@ -99,7 +100,7 @@ nav {
         position: relative;
         top: 400px;
         left: 75px;
-        border: 5px solid darkorange;
+        /* border: 5px solid darkorange; */
         border-radius: 10px;
 
       }
@@ -109,6 +110,7 @@ nav {
         font-weight: bold;
         position: relative;
         left:10px;
+        color:gray;
       }
 
       .right-image{
@@ -118,7 +120,7 @@ nav {
         position: relative;
         bottom: 1000px;
         left: 1245px;
-        border: 5px solid darkorange;
+        /* border: 5px solid darkorange; */
         border-radius: 10px;
       }
 
